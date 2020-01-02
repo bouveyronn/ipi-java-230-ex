@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.ipiecoles.java.java230.model.EmployeTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.191 sec <<< FAILURE! - in com.ipiecoles.java.java230.model.EmployeTest
+exo102testEntity(com.ipiecoles.java.java230.model.EmployeTest)  Time elapsed: 0.149 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[tru]e> but was:<[fals]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.ipiecoles.java.java230.model.EmployeTest.exo102testEntity(EmployeTest.java:21)
+
+exo501testEntity(com.ipiecoles.java.java230.model.EmployeTest)  Time elapsed: 0.038 sec  <<< FAILURE!
+org.junit.ComparisonFailure: [La classe com.ipiecoles.java.java230.model.Employe n'a pas l'annotation Entity] expected:<[tru]e> but was:<[fals]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkAnnotation(TestUtils.java:336)
+	at com.ipiecoles.java.java230.model.EmployeTest.exo501testEntity(EmployeTest.java:29)
+
+exo101testEntity(com.ipiecoles.java.java230.model.EmployeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: [La classe com.ipiecoles.java.java230.model.Employe n'a pas l'annotation Entity] expected:<[tru]e> but was:<[fals]e>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkAnnotation(TestUtils.java:336)
+	at com.ipiecoles.java.java230.model.EmployeTest.exo101testEntity(EmployeTest.java:14)
+

@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Test set: com.ipiecoles.java.java230.repository.EmployeRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in com.ipiecoles.java.java230.repository.EmployeRepositoryTest
+exo404testNatif(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo404testNatif(EmployeRepositoryTest.java:112)
+
+exo403testJpql(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo403testJpql(EmployeRepositoryTest.java:97)
+
+exo201testCrudRepository(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkImplementInterface(TestUtils.java:389)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo201testCrudRepository(EmployeRepositoryTest.java:15)
+
+exo411testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo411testRequete(EmployeRepositoryTest.java:24)
+
+exo412testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo412testRequete(EmployeRepositoryTest.java:34)
+
+exo413testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo413testRequete(EmployeRepositoryTest.java:44)
+
+exo414testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo414testRequete(EmployeRepositoryTest.java:54)
+
+exo415testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo415testRequete(EmployeRepositoryTest.java:64)
+
+exo416testRequete(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkMethod(TestUtils.java:151)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo416testRequete(EmployeRepositoryTest.java:74)
+
+exo402testPaging(com.ipiecoles.java.java230.repository.EmployeRepositoryTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.ClassNotFoundException: com.ipiecoles.java.java230.repository.EmployeRepository
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.ipiecoles.java.java230.utils.TestUtils.getClasse(TestUtils.java:165)
+	at com.ipiecoles.java.java230.utils.TestUtils.checkImplementInterface(TestUtils.java:389)
+	at com.ipiecoles.java.java230.repository.EmployeRepositoryTest.exo402testPaging(EmployeRepositoryTest.java:80)
+

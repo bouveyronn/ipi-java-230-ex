@@ -1,8 +1,9 @@
 package com.ipiecoles.java.java230.model;
 
 import com.ipiecoles.java.java230.exceptions.TechnicienException;
-import org.joda.time.LocalDate;
+//import org.joda.time.LocalDate;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Technicien extends Employe implements Comparable<Technicien> {

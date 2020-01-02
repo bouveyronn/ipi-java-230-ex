@@ -1,6 +1,8 @@
 package com.ipiecoles.java.java230.model;
 
-import org.joda.time.LocalDate;
+//import org.joda.time.LocalDate;
+
+import java.time.LocalDate;
 
 public class Commercial extends Employe {
 
