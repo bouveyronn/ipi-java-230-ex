@@ -1,10 +1,13 @@
 package com.ipiecoles.java.java230.model;
 
+import org.hibernate.annotations.Entity;
 import org.hibernate.annotations.Type;
-import org.joda.time.LocalDate;
 
+import javax.persistence.Table;
+import java.time.LocalDate;
 import java.util.Objects;
-
+@Entity
+@Table (name = "employe")
 public abstract class Employe {
 
 	private Long id;
@@ -15,7 +18,6 @@ public abstract class Employe {
 
 	private String matricule;
 
-	@Type(type = "org.jadira.usertype.dateandtime.joda.PersistentLocalDate")
 	private LocalDate dateEmbauche;
 	
 	private Double salaire = Entreprise.SALAIRE_BASE;
